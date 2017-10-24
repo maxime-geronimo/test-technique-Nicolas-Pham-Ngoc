@@ -1,5 +1,5 @@
 /*	General	*/
-	.container { width: 1440px; }
+	body { width: 1440px; margin: auto;}
 	.flex { 
 		display: flex; 
 		list-style: none; 
@@ -25,8 +25,18 @@
 		padding-right: 18px;
 
 	}
+	header ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+	header ul li a:hover {
+		color: #fff;
+		text-decoration: none;
+		border: 1px solid #fff;
+		padding: 10px;
+	}
 	.burger { 
-		display: none; 
+		display: none;
 	}
 	.title {
 		height: 18px; 
