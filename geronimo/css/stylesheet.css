@@ -58,8 +58,12 @@
 /*	mask	*/
 	.mask {
 		height: 576px;
-		opacity: 0.3;
-		background-color: #000000;
+		background: linear-gradient(
+	      rgba(0, 0, 0, 0.45), 
+	      rgba(0, 0, 0, 0.45)
+	    ), url(../img/open_space.jpg)  center;
+	    background-size: cover;
+	    background-repeat: no-repeat;
 		justify-content: center;
 		align-items: center;
 	}
@@ -82,6 +86,7 @@
 		font-weight: bold;
 		text-align: center;
 		color: #000000;
+		margin-bottom: 0;
    }
 	.box_news {
 		padding-top: 30px;
@@ -130,7 +135,7 @@
 		align-items: center;
 		border: solid 1px #000000;	
 		height: 60px;
-		margin: 0 15px 60px 15px; 
+		margin: 50px 15px; 
 	}
 	.more h1 {
 		text-align: center;
